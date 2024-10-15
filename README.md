@@ -1,27 +1,27 @@
 <h1 align="center">Hi 👋, I'm Martial De-Paul</h1>
-<h3 align="center">Passionate about creating dynamic web applications using React and Next.js 🚀</h3>
+<h3 align="center">A passionate developer specializing in dynamic web applications with <strong>React</strong> and <strong>Next.js</strong> 🚀</h3>
 
-<p align="center">
+<div align="center">
   <img src="https://camo.githubusercontent.com/64b973cb57806dd2b625e57e40571ce9ca4b4086d5c1ca932910cdaed296020a/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7a356943766f316f4362717437756b4d51732f67697068792e676966" alt="Dynamic GIF" width="300" height="200"/>
-</p>
+</div>
 
-<p align="center">As a dedicated Fullstack Web Developer, I specialize in building responsive and dynamic applications that enhance user experience. My expertise in <strong>React</strong> and <strong>Next.js</strong> allows me to create high-performance web solutions tailored to the needs of users and businesses alike.</p>
+### 🌟 About Me
+I'm a developer who loves transforming ideas into reality. I thrive on challenges and enjoy solving complex problems through innovative solutions. My main focus is creating responsive and interactive web applications that provide exceptional user experiences.
 
-<p align="center">I am constantly exploring new technologies and frameworks to improve my skill set and deliver exceptional results. Let's connect and collaborate on exciting projects!</p>
+### 📫 How to Reach Me
+Feel free to connect with me at **[depaulmartial@gmail.com](mailto:depaulmartial@gmail.com)**.
 
-<p align="center">
-  - 📫 How to reach me: **[depaulmartial@gmail.com](mailto:depaulmartial@gmail.com)**<br>
-  - ⚡ Fun fact: I love solving complex problems and turning ideas into reality!
-</p>
+### ⚡ Fun Fact
+I enjoy coding while listening to music; it fuels my creativity!
 
-<h3 align="left">Connect with me:</h3>
+### 📈 Connect with Me
 <p align="left">
-  <a href="https://www.linkedin.com/in/martial-de-paul/" target="_blank">
+  <a href="https://www.linkedin.com/in/martial-de-paul/" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
   </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+### 🛠️ Languages and Tools
 <p align="left">
   <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
@@ -48,4 +48,12 @@
     <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/>
   </a>
   <a href="https://www.php.net" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-ori
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
+  </a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
+  </a>
+</p>
