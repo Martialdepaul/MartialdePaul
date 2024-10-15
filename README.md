@@ -1,30 +1,41 @@
-# Hi 👋, I'm Martial De-Paul
+<h1 align="center">Hi 👋, I'm Martial De-Paul</h1>
+<h3 align="center">Passionate about creating dynamic web applications using React and Next.js 🚀</h3>
 
-<div style="display: flex; align-items: center;">
-    <img src="https://camo.githubusercontent.com/64b973cb57806dd2b625e57e40571ce9ca4b4086d5c1ca932910cdaed296020a/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7a356943766f316f4362717437756b4d51732f67697068792e676966" alt="Coding GIF" style="width: 200px; margin-right: 20px;">
-    <div>
-        ## 🌟 Passionate Web Developer
-        I'm a dedicated Fullstack Web Developer specializing in **React** and **Next.js**. I love creating dynamic and responsive web applications that enhance user experience. With a solid foundation in **PHP**, **JavaScript**, and **WordPress**, I am skilled at integrating various technologies to deliver high-quality projects.
+<div style="display: flex; align-items: center; justify-content: center;">
+  <img src="https://camo.githubusercontent.com/64b973cb57806dd2b625e57e40571ce9ca4b4086d5c1ca932910cdaed296020a/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7a356943766f316f4362717437756b4d51732f67697068792e676966" alt="Dynamic GIF" width="300" height="200" style="margin-right: 20px;"/>
+  <div>
+    <p>As a dedicated Fullstack Web Developer, I specialize in building responsive and dynamic applications that enhance user experience. My expertise in <strong>React</strong> and <strong>Next.js</strong> allows me to create high-performance web solutions tailored to the needs of users and businesses alike.</p>
+    <p>I am constantly exploring new technologies and frameworks to improve my skill set and deliver exceptional results. Let's connect and collaborate on exciting projects!</p>
+    
+    <p align="center">
+      - 📫 How to reach me: **[depaulmartial@gmail.com](mailto:depaulmartial@gmail.com)**<br>
+      - ⚡ Fun fact: I love solving complex problems and turning ideas into reality!
+    </p>
+    
+    <h3 align="left">Connect with me:</h3>
+    <p align="left">
+      <a href="https://www.linkedin.com/in/martial-de-paul/" target="blank">
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+      </a>
+    </p>
 
-        I'm constantly learning and adapting to new technologies, ensuring I stay ahead in the fast-paced world of web development. Let's connect and explore opportunities to collaborate!
-
-        ## 📫 How to reach me:
-        **Email:** [depaulmartial@gmail.com](mailto:depaulmartial@gmail.com)
-
-        ## Connect with me:
-        [![LinkedIn](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg)](https://linkedin.com/in/martial-de-paul/)
-
-        ## 💻 Languages and Tools:
-        - ![Bootstrap](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg) [Bootstrap](https://getbootstrap.com)
-        - ![CSS3](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg) [CSS3](https://www.w3schools.com/css/)
-        - ![Git](https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg) [Git](https://git-scm.com/)
-        - ![HTML5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg) [HTML5](https://www.w3.org/html/)
-        - ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-        - ![MongoDB](https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg) [MongoDB](https://www.mongodb.com/)
-        - ![MySQL](https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg) [MySQL](https://www.mysql.com/)
-        - ![Next.js](https://cdn.worldvectorlogo.com/logos/nextjs-2.svg) [Next.js](https://nextjs.org/)
-        - ![PHP](https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg) [PHP](https://www.php.net)
-        - ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg) [React](https://reactjs.org/)
-        - ![Tailwind CSS](https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg) [Tailwind CSS](https://tailwindcss.com/)
-    </div>
-</div>
+    <h3 align="left">Languages and Tools:</h3>
+    <p align="left">
+      <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+      </a>
+      <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+      </a>
+      <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+      </a>
+      <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+      </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+      </a>
+      <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
+     
