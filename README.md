@@ -15,7 +15,7 @@
 
 <h3 align="left">📫 How to reach me:</h3>
 <p align="left">
-  <strong>Email:</strong> <a href="mailto:depaulmartial@gmail.com">depaulmartial@gmail.com</a>
+  <strong>Email:</strong> <a href="mailto:depaulmartial@gmail.com">depaulmartial4@gmail.com</a>
 </p>
 
 <h3 align="left">⚡ Fun fact:</h3>
