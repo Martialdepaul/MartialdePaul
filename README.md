@@ -49,3 +49,42 @@
 - 🤝 Adepte du travail d'équipe et de la méthodologie Agile
 
 ---
+
+### 🏆 Projets Phares
+
+1. **E-commerce Révolutionnaire** - Plateforme Next.js + Shopify
+2. **Dashboard Analytique** - Application React avec visualisation de données
+3. **CMS Sur Mesure** - Solution PHP robuste pour la gestion de contenu
+
+---
+
+### 📫 Connectons-nous !
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/martial-de-paul/)
+- 📧 [Email](mailto:depaulmartial4@gmail.com)
+- 🌐 [Portfolio](https://votreportfolio.com) *(à venir)*
+
+---
+
+### 🎯 Objectif Professionnel
+
+Rejoindre une équipe innovante où je pourrai appliquer ma passion pour le développement front-end, tout en continuant à élargir mes compétences full stack pour créer des solutions web qui font la différence.
+
+---
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=votreusername&layout=compact&theme=radical" alt="Top Languages"/>
+</div>
+
+---
+
+### 💬 Citation Favorite
+
+> "Le code est comme l'humour. Quand vous devez l'expliquer, c'est mauvais." – Cory House
+
+---
+
+<div align="center">
+  <em>Prêt à relever de nouveaux défis et à repousser les limites du web moderne !</em>
+</div>
+
