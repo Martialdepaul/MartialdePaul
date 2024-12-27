@@ -16,28 +16,29 @@
 ## 🔧 **Stack Technique**
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap,php,wordpress,jquery" alt="Technologies" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,tailwind,bootstrap,php,wordpress,jquery" alt="Technologies" />
 </p>
 
 ---
 
-## 🚀 **Projets Notables**
+## 💼 **Compétences Professionnelles**
 
-### 🖼️ **Portfolio React**
-> 🎨 **Description** : Un portfolio dynamique développé avec **React** et stylisé avec **TailwindCSS**. Responsive et optimisé pour des performances rapides.  
-> 🔗 [Voir le projet](https://martialportfolio.com)
+### 🔹 **Frontend Development**
+- 🛠️ **Création d’interfaces dynamiques et responsives** avec **React** et **TailwindCSS**.
+- 🎨 **Maîtrise des bases HTML, CSS, et JavaScript** pour des designs pixel-perfect.
+- ⚡ **Optimisation des performances frontend** pour une expérience utilisateur fluide.
 
----
+### 🔹 **Backend Development**
+- 🔧 Utilisation de **Node.js** pour des applications rapides et évolutives.
+- 📦 Gestion de données avec des bases comme **MySQL** ou **MongoDB**.
 
-### 🛒 **Application E-Commerce**
-> 🛍️ **Description** : Plateforme e-commerce complète avec gestion de panier, paiement en ligne et tableau de bord d’administration. Utilisation de **React**, **Bootstrap** et **PHP**.  
-> 🔗 [Explorer le projet](https://martialecommerce.com)
+### 🔹 **WordPress Expertise**
+- 📝 Développement de thèmes personnalisés et intégration de plugins.
+- 🚀 Optimisation pour le SEO et la compatibilité multi-navigateurs.
 
----
-
-### ✍️ **Blog Personnalisé**
-> 📝 **Description** : Blog interactif basé sur **WordPress** avec un thème personnalisé optimisé pour le SEO.  
-> 🔗 [Découvrir le projet](https://martialblog.com)
+### 🔹 **Collaboration et Workflow**
+- 🧑‍🤝‍🧑 Travail en équipe avec **Git/GitHub** pour un développement organisé.
+- ⏳ Respect des délais grâce à des méthodologies agiles.
 
 ---
 
@@ -67,7 +68,7 @@
 
 ### 🎉 **Pourquoi collaborer avec moi ?**
 - 🌟 **Créativité et innovation** : Je transforme vos idées en solutions web élégantes et performantes.  
-- 💻 **Compétences techniques avancées** : React, TailwindCSS, WordPress et bien plus encore.  
+- 💻 **Compétences techniques avancées** : React, TailwindCSS, WordPress, Node.js et bien plus encore.  
 - 🚀 **Fiabilité et rapidité** : Livraison de projets dans les délais avec une qualité irréprochable.  
 
 ---
