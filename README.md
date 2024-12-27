@@ -51,6 +51,10 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Martialdepaul&theme=radical" alt="GitHub Streak">
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Martialdepaul&layout=compact&theme=radical" alt="Langages les plus utilisés">
+</p>
+
 ---
 
 ## 💼 **Contactez-moi**
