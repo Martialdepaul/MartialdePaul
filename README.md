@@ -1,5 +1,3 @@
-# 👨‍💻 **Martial De-Paul** - Créateur d'expériences web modernes
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/refs/heads/main/banner.png" alt="Bannière personnalisée" width="100%">
 </p>
