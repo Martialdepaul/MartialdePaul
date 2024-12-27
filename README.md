@@ -1,47 +1,54 @@
 # 👨‍💻 **Martial De-Paul** - Développeur Frontend Passionné
 
 ## 🌍 **À propos de moi**
-Je suis un **Développeur Frontend** passionné par la création de **sites web modernes** et **interactifs**. Mon expertise se concentre sur l'utilisation de **React**, **TailwindCSS**, et **JavaScript** pour construire des interfaces utilisateurs dynamiques, élégantes et responsive. 🎨💻  
-Je suis également passionné par l'optimisation des performances et l'expérience utilisateur (UX), pour offrir des applications web fluides et engageantes. 🌟
-
-**"La beauté du web est dans la simplicité et l'interaction fluide."**
-
-## 🛠️ **Compétences techniques**
-
-### 💻 **Frontend**
-- **React** : 🧠 Création d'interfaces utilisateurs dynamiques avec **React**, en utilisant les hooks, gestion d'état (Context API, Redux), et le routage (React Router).
-- **TailwindCSS** : 🎨 Design rapide et réactif avec **TailwindCSS**, une approche utility-first pour personnaliser facilement les styles.
-- **HTML5 & CSS3** : 🌐 Maîtrise des standards modernes du web pour créer des pages structurées et responsives.
-- **JavaScript (ES6+)** : ⚡ Développement d'interactions côté client et logique complexe avec **JavaScript**.
-- **Bootstrap** : 📱 Création de sites responsives avec le framework **Bootstrap** pour un développement rapide.
-- **jQuery** : 🖱️ Manipulation du DOM et gestion des animations et événements pour améliorer l'interactivité.
-
-### 🔙 **Backend (Compétences secondaires)**
-- **PHP** : 🔧 Développement côté serveur et intégration de sites avec **WordPress** pour des solutions dynamiques.
-- **MySQL** : 📊 Gestion de bases de données relationnelles et interactions avec des sites web front-end.
-
-### 🔧 **Outils & Workflow**
-- **Git & GitHub** : 🔀 Collaboration, gestion de version, et déploiement avec **Git** et **GitHub**.
-- **VS Code** : 🧑‍💻 Éditeur de code préféré avec de nombreuses extensions pour un développement rapide et fluide.
-- **Node.js** : 🌐 Utilisation de **Node.js** pour le développement backend JavaScript et la gestion de paquets avec npm.
-- **XAMPP** : 🛠️ Mise en place d'environnements de développement local pour des projets PHP/MySQL.
-
-## 🚀 **Mes projets Frontend**
-
-- **[Nom du projet 1](lien_du_projet)** : 📱 Application **React** avec **TailwindCSS** pour une expérience utilisateur fluide et responsive. Fonctionnalités avancées avec gestion d'état et navigation dynamique.
-- **[Nom du projet 2](lien_du_projet)** : 🖥️ Développement d'un site web interactif et responsive avec **React**, **Bootstrap**, et **JavaScript** pour une expérience immersive.
-- **[Nom du projet 3](lien_du_projet)** : 🎨 Création d'un portfolio dynamique avec **React** et **TailwindCSS**, démontrant mes compétences en design et interactivité.
-
-## 📈 **Statistiques GitHub**
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Martialdepaul&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=radical)
-
-## 📬 **Me contacter**
-- 📧 **Email** : martiale-depaul@example.com
-- 🌐 **LinkedIn** : [Profil LinkedIn](https://www.linkedin.com/in/martialdepaul)
-- 🐦 **Twitter** : [@MartialDev](https://twitter.com/)
-- 💼 **Portfolio** : [Mon Portfolio](https://martialdevportfolio.com)
+Je suis un **Développeur Frontend** passionné par la création de **sites web modernes** et **interactifs**. Mon expertise se concentre sur **React**, **TailwindCSS**, et **JavaScript**, pour concevoir des interfaces utilisateurs dynamiques, élégantes et responsives. 🎨💻  
+**"Créer, innover, transformer le web avec passion."**
 
 ---
 
-🔧 **"Construire des interfaces utilisateurs élégantes et efficaces est ma passion."**  
-🌟 Toujours à la recherche de nouveaux défis pour perfectionner mes compétences et créer des expériences web exceptionnelles !
+## 🛠️ **Compétences techniques**
+
+| **Langages & Frameworks**        | **Outils & Environnements**           |
+|----------------------------------|---------------------------------------|
+| ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white) |
+| ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white) | ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code&logoColor=white) |
+| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) | ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white) |
+| ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) | ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) |
+| ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white) | ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white) |
+| ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white) | ![XAMPP](https://img.shields.io/badge/-XAMPP-FB7A24?logo=xampp&logoColor=white) |
+
+---
+
+## 🚀 **Projets Frontend**
+
+### **1. Portfolio React**  
+🎨 **Description** : Création d’un portfolio dynamique avec **React** et **TailwindCSS**, conçu pour être rapide, interactif et responsive.  
+🔗 [Lien du projet](https://martialportfolio.com)  
+
+### **2. Application Web E-Commerce**  
+🛒 **Description** : Développement d’une plateforme e-commerce avec **React** et **Bootstrap**, intégrant des fonctionnalités avancées comme la gestion de panier et le paiement en ligne.  
+🔗 [Lien du projet](https://martialecommerce.com)  
+
+### **3. Blog Interactif**  
+✍️ **Description** : Site de blog avec **WordPress** et **PHP**, conçu avec un thème personnalisé et optimisé pour le SEO.  
+🔗 [Lien du projet](https://martialblog.com)  
+
+---
+
+## 📈 **Statistiques GitHub**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Martialdepaul&show_icons=true&theme=radical" alt="Statistiques GitHub de Martial">
+</p>
+
+---
+
+## 📬 **Me contacter**
+📧 **Email** : martialdepaul@example.com  
+🌐 **LinkedIn** : [Connectez-vous avec moi](https://www.linkedin.com/in/martialdepaul)  
+💼 **Portfolio** : [martialportfolio.com](https://martialportfolio.com)
+
+---
+
+**"Construire des interfaces modernes, efficaces et esthétiques est ma mission. 🚀"**
+
+---
