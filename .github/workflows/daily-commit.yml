@@ -24,10 +24,19 @@ jobs:
       - name: Run Update Script
         run: node updateReadme.js
 
-      - name: Commit and Push Changes
+      - name: Set up Git for pushing changes
         run: |
           git config --global user.name "Gabot"
-          git config --global user.email "gabot@depaulmartial4@gmail.com"
+          git config --global user.email "gabot@depaulmartial4@gmail.com"  # Utilise l'email que tu veux
+
+      - name: Authenticate with GitHub token
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Cette ligne récupère le secret GH_TOKEN
+        run: |
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git  # Utilise le token dans l'URL du remote
+
+      - name: Commit and Push Changes
+        run: |
           git add .  # Ajoute tous les fichiers modifiés
           git commit -m "Mise à jour quotidienne du README"
           git push
