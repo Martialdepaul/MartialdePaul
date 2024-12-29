@@ -3,17 +3,16 @@ const path = require("path");
 
 const readmePath = path.join(__dirname, "README.md"); // Assurez-vous que ce chemin est correct
 
-const msInOneDay = 1000 * 60 * 60 * 24;
 const today = new Date();
 
 // Fonction pour générer le nouveau README avec la date actuelle
 function generateNewREADME(readme) {
-  const readmeRow = readme.split("\n");
+  const readmeRows = readme.split("\n");
 
   function updateIdentifier(identifier, replaceText) {
-    const identifierIndex = findIdentifierIndex(readmeRow, identifier);
-    if (!readmeRow[identifierIndex]) return;
-    readmeRow[identifierIndex] = readmeRow[identifierIndex].replace(
+    const identifierIndex = findIdentifierIndex(readmeRows, identifier);
+    if (identifierIndex === -1) return;
+    readmeRows[identifierIndex] = readmeRows[identifierIndex].replace(
       `<#${identifier}>`,
       replaceText
     );
@@ -27,7 +26,7 @@ function generateNewREADME(readme) {
     updateIdentifier(key, value);
   });
 
-  return readmeRow.join("\n");
+  return readmeRows.join("\n");
 }
 
 function getTodayDate() {
@@ -35,7 +34,7 @@ function getTodayDate() {
 }
 
 const findIdentifierIndex = (rows, identifier) =>
-  rows.findIndex((r) => Boolean(r.match(new RegExp(`<#${identifier}>`, "i"))));
+  rows.findIndex((r) => r.includes(`<#${identifier}>`));
 
 const updateREADMEFile = (text) => fs.writeFile(readmePath, text);
 

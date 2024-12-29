@@ -1,6 +1,4 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/refs/heads/main/banner.png" alt="Bannière personnalisée" width="100%">
-</p>
+![Bannière personnalisée](https://raw.githubusercontent.com/Martialdepaul/MartialDePaul/refs/heads/main/banner.png)
 
 ---
 
@@ -11,15 +9,13 @@
 
 ---
 
-## 📅 **Mise à jour du jour** : Sun Dec 29 2024
+## 📅 **Mise à jour du jour** : <#today_date>
 
 ---
 
 ## 🔧 **Stack Technique**
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,tailwind,bootstrap,php,wordpress,jquery" alt="Technologies" />
-</p>
+![Technologies utilisées](https://skillicons.dev/icons?i=html,css,js,react,nodejs,tailwind,bootstrap,php,wordpress,jquery)
 
 ---
 
@@ -50,17 +46,11 @@
 
 ## 🌐 **Statistiques GitHub**
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Martialdepaul&show_icons=true&theme=radical" alt="Statistiques GitHub">
-</p>
+![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=Martialdepaul&show_icons=true&theme=radical)
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Martialdepaul&theme=radical" alt="GitHub Streak">
-</p>
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Martialdepaul&theme=radical)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Martialdepaul&layout=compact&theme=radical" alt="Langages les plus utilisés">
-</p>
+![Langages les plus utilisés](https://github-readme-stats.vercel.app/api/top-langs/?username=Martialdepaul&layout=compact&theme=radical)
 
 ---
 
