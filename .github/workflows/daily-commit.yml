@@ -1,0 +1,37 @@
+name: Daily README Update
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # Exécute tous les jours à 10h00 UTC
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest # Exécute sur un environnement Linux
+
+    steps:
+      # 1. Checkout du code du dépôt
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # 2. Installer Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16" # Spécifie la version de Node.js
+
+      # 3. Installer les dépendances du projet (si nécessaire)
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Exécuter le script pour mettre à jour le README
+      - name: Run the script
+        run: node ton_script.js # Remplace par le nom de ton script
+
+      # 5. Commit et push des modifications dans le fichier README.md
+      - name: Commit and push updated README
+        run: |
+          git config --global user.name "Gabot"
+          git config --global user.email "gabot@example.com"
+          git add README.md
+          git commit -m "Update README with daily message"
+          git push
