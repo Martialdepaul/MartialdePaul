@@ -1,8 +1,7 @@
 const { promises: fs } = require("fs");
-const readme = require("./README.md"); // Ton fichier README.md
+const readme = require("./README.md"); // Assure-toi que le fichier README.md est bien dans le même répertoire
 
 const msInOneDay = 1000 * 60 * 60 * 24;
-
 const today = new Date();
 
 function generateNewREADME() {
