@@ -31,7 +31,7 @@ jobs:
 
       - name: Authenticate with GitHub token
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Cette ligne récupère le secret GH_TOKEN
+          GH_TOKEN: ${{ secrets.MY_SECRET_KEY2 }} # Cette ligne récupère le secret GH_TOKEN
         run: |
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git  # Utilise le token dans l'URL du remote
 
