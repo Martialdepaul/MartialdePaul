@@ -27,7 +27,7 @@ jobs:
       - name: Commit and Push Changes
         run: |
           git config --global user.name "Gabot"
-          git config --global user.email "gabot@example.com"  # Utilise l'email que tu veux
-          git add README.md
+          git config --global user.email "gabot@depaulmartial4@gmail.com"
+          git add .  # Ajoute tous les fichiers modifiés
           git commit -m "Mise à jour quotidienne du README"
           git push
