@@ -1,3 +1,5 @@
+# Mon Profil GitHub
+
 ![Bannière personnalisée](https://raw.githubusercontent.com/Martialdepaul/MartialDePaul/refs/heads/main/banner.png)
 
 ---
@@ -9,7 +11,7 @@
 
 ---
 
-## 📅 **Mise à jour du jour** : <#today_date>
+## 📅 **Mise à jour du jour** : Mon Dec 30 2024
 
 ---
 
@@ -56,7 +58,7 @@
 
 ## 💼 **Contactez-moi**
 
-📧 **Email** : martialdepaul@example.com  
+📧 **Email** : [martialdepaul@example.com](mailto:martialdepaul@example.com)  
 🔗 **LinkedIn** : [Mon profil LinkedIn](https://www.linkedin.com/in/martialdepaul)
 
 ---
@@ -69,4 +71,4 @@
 
 ---
 
-**"Le code n’est pas seulement fonctionnel, il peut aussi être artistique." 🎨**
+> "Le code n'est pas seulement fonctionnel, il peut aussi être artistique."
