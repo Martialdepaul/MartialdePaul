@@ -1,56 +1,35 @@
-const { promises: fs } = require("fs");
-const path = require("path");
+name: Daily README Update
 
-const readmePath = path.join(__dirname, "README.md");
+on:
+  schedule:
+    - cron: "0 0 * * *" # Exécute le script tous les jours à minuit UTC
+  workflow_dispatch: # Permet de déclencher manuellement le workflow
 
-const today = new Date();
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
 
-// Fonction pour générer le nouveau README avec la date actuelle
-function generateNewREADME(readme) {
-  const readmeRows = readme.split("\n");
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-  function updateIdentifier(identifier, replaceText) {
-    const identifierIndex = findIdentifierIndex(readmeRows, identifier);
-    if (identifierIndex === -1) return;
-    readmeRows[identifierIndex] = readmeRows[identifierIndex].replace(
-      `<#${identifier}>`,
-      replaceText
-    );
-  }
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14" # Choisis la version de Node.js que tu veux
 
-  const identifierToUpdate = {
-    today_date: getTodayDate(),
-  };
+      - name: Install Dependencies
+        run: npm install
 
-  Object.entries(identifierToUpdate).forEach(([key, value]) => {
-    updateIdentifier(key, value);
-  });
+      - name: Run Update Script
+        run: node updateReadme.js
 
-  return readmeRows.join("\n");
-}
-
-function getTodayDate() {
-  const day = String(today.getDate()).padStart(2, "0");
-  const month = String(today.getMonth() + 1).padStart(2, "0");
-  const year = today.getFullYear();
-  return `${day}/${month}/${year}`;
-}
-
-const findIdentifierIndex = (rows, identifier) =>
-  rows.findIndex((r) => r.includes(`<#${identifier}>`));
-
-const updateREADMEFile = (text) => fs.writeFile(readmePath, text);
-
-// Fonction principale
-async function main() {
-  try {
-    const readmeContent = await fs.readFile(readmePath, "utf-8");
-    const newREADME = generateNewREADME(readmeContent);
-    await updateREADMEFile(newREADME);
-    console.log("README mis à jour avec succès !");
-  } catch (error) {
-    console.error("Erreur lors de la mise à jour du README :", error);
-  }
-}
-
-main();
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Utilisation du token GitHub Actions
+        run: |
+          git config --global user.name "Gabot"
+          git config --global user.email "gabot@depaulmartial4@gmail.com"
+          git add .  # Ajoute tous les fichiers modifiés
+          git commit -m "Mise à jour quotidienne du README"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
