@@ -1,7 +1,7 @@
 const { promises: fs } = require("fs");
 const path = require("path");
 
-const readmePath = path.join(__dirname, "README.md"); // Assurez-vous que ce chemin est correct
+const readmePath = path.join(__dirname, "README.md");
 
 const today = new Date();
 
@@ -30,7 +30,10 @@ function generateNewREADME(readme) {
 }
 
 function getTodayDate() {
-  return today.toDateString();
+  const day = String(today.getDate()).padStart(2, "0");
+  const month = String(today.getMonth() + 1).padStart(2, "0");
+  const year = today.getFullYear();
+  return `${day}/${month}/${year}`;
 }
 
 const findIdentifierIndex = (rows, identifier) =>
@@ -41,9 +44,9 @@ const updateREADMEFile = (text) => fs.writeFile(readmePath, text);
 // Fonction principale
 async function main() {
   try {
-    const readmeContent = await fs.readFile(readmePath, "utf-8"); // Lire le README.md en texte
-    const newREADME = generateNewREADME(readmeContent); // Générer le nouveau contenu
-    await updateREADMEFile(newREADME); // Mettre à jour le fichier README.md
+    const readmeContent = await fs.readFile(readmePath, "utf-8");
+    const newREADME = generateNewREADME(readmeContent);
+    await updateREADMEFile(newREADME);
     console.log("README mis à jour avec succès !");
   } catch (error) {
     console.error("Erreur lors de la mise à jour du README :", error);
