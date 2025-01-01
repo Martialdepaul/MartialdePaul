@@ -19,17 +19,18 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
 
-      # 3. Pull latest changes from the remote (to prevent conflicts)
-      - name: Pull latest changes from the remote
+      # 3. Pull the latest changes from the remote repository and rebase
+      - name: Pull latest changes and rebase
         run: |
-          git pull origin main --rebase
+          git fetch origin
+          git rebase origin/main
 
       # 4. Run the script to update the README
       - name: Update README date
         run: |
           node update-readme.js
 
-      # 5. Commit and push changes
+      # 5. Commit and Push changes
       - name: Commit and Push changes
         run: |
           git add README.md
