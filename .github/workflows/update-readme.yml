@@ -1,38 +1,37 @@
-name: Mise à jour quotidienne du README
+name: Update README daily
 
 on:
   schedule:
-    # Planification : tous les jours à minuit (UTC)
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # Exécute tous les jours à minuit
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # Étape 1 : Vérifier le dépôt
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      # 1. Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      # Étape 2 : Configuration de Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18" # Remplacez par votre version de Node.js si nécessaire
-
-      # Étape 3 : Installer les dépendances (si nécessaires)
-      - name: Install dependencies
-        run: npm install
-
-      # Étape 4 : Exécuter le script de mise à jour
-      - name: Mettre à jour le README
-        run: node update-readme.js
-
-      # Étape 5 : Ajouter, commit et push les modifications
-      - name: Commit and Push changes
+      # 2. Set up Git configuration
+      - name: Set up Git config
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
+
+      # 3. Pull latest changes from the remote (to prevent conflicts)
+      - name: Pull latest changes from the remote
+        run: |
+          git pull origin main --rebase
+
+      # 4. Run the script to update the README
+      - name: Update README date
+        run: |
+          node update-readme.js
+
+      # 5. Commit and push changes
+      - name: Commit and Push changes
+        run: |
           git add README.md
-          git commit -m "Mise à jour automatique de la date : $(date +'%d/%m/%Y')"
-          git push
+          git commit -m "Mise à jour quotidienne du README"
+          git push origin main
