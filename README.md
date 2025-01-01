@@ -11,7 +11,7 @@
 
 ---
 
-## 📅 **Mise à jour du jour** : Mon Dec 31 2024
+## 📅 **Mise à jour du jour** : Wed Jan 1 2025
 
 ---
 
