@@ -11,7 +11,7 @@
 
 ---
 
-## 📅 **Mise à jour du jour** : Wed Jan 1 2025
+## 📅 **Mise à jour du jour** : <#today_date>
 
 ---
 
