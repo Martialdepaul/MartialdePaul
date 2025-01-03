@@ -19,20 +19,25 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
 
-      # 3. Pull the latest changes from the remote repository and rebase
-      - name: Pull latest changes and rebase
-        run: |
-          git fetch origin
-          git rebase origin/main
+      # 3. Pull the latest changes
+      - name: Pull latest changes
+        run: git pull --rebase origin main
 
       # 4. Run the script to update the README
       - name: Update README date
-        run: |
-          node update-readme.js
+        run: node update-readme.js
 
-      # 5. Commit and Push changes
+      # 5. Debug changes (optional)
+      - name: Debug file changes
+        run: git diff README.md || echo "Aucun changement détecté dans README.md"
+
+      # 6. Commit and Push changes
       - name: Commit and Push changes
         run: |
-          git add README.md
-          git commit -m "Mise à jour quotidienne du README"
-          git push origin main
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "Mise à jour quotidienne du README"
+            git push origin main
+          else
+            echo "Aucun changement détecté dans README.md, rien à valider."
+          fi
