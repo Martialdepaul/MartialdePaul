@@ -2,7 +2,7 @@ name: Update README daily
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Exécute tous les jours à minuit
+    - cron: "23 23 * * *" # Exécute tous les jours à 23h UTC (minuit UTC+1)
 
 jobs:
   update-readme:
@@ -23,15 +23,19 @@ jobs:
       - name: Pull latest changes
         run: git pull --rebase origin main
 
-      # 4. Run the script to update the README
+      # 4. Debug the date to ensure correct time
+      - name: Debug date
+        run: date
+
+      # 5. Run the script to update the README
       - name: Update README date
         run: node update-readme.js
 
-      # 5. Debug changes (optional)
+      # 6. Debug file changes (optional)
       - name: Debug file changes
         run: git diff README.md || echo "Aucun changement détecté dans README.md"
 
-      # 6. Commit and Push changes
+      # 7. Commit and Push changes
       - name: Commit and Push changes
         run: |
           if ! git diff --quiet README.md; then
