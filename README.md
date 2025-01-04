@@ -11,7 +11,7 @@
 
 ---
 
-## 📅 **Mise à jour du jour** : <#today_date>
+## 📅 **Mise à jour du jour** : 04/01/2025
 
 ---
 
