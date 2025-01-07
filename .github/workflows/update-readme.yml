@@ -2,46 +2,38 @@ name: Update README daily
 
 on:
   schedule:
-    - cron: "23 23 * * *" # Exécute tous les jours à 23h UTC (minuit UTC+1)
+    - cron: "0 22 * * *" # Exécute tous les jours à 22h UTC (23h UTC+1)
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout the code
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # 2. Set up Git configuration
       - name: Set up Git config
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
 
-      # 3. Pull the latest changes
       - name: Pull latest changes
-        run: git pull --rebase origin main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
-      # 4. Debug the date to ensure correct time
       - name: Debug date
         run: date
 
-      # 5. Run the script to update the README
       - name: Update README date
-        run: node update-readme.js
+        run: |
+          node update-readme.js || echo "Erreur dans le script Node.js"
 
-      # 6. Debug file changes (optional)
       - name: Debug file changes
         run: git diff README.md || echo "Aucun changement détecté dans README.md"
 
-      # 7. Commit and Push changes
       - name: Commit and Push changes
         run: |
-          if ! git diff --quiet README.md; then
-            git add README.md
-            git commit -m "Mise à jour quotidienne du README"
-            git push origin main
-          else
-            echo "Aucun changement détecté dans README.md, rien à valider."
-          fi
+          git add README.md
+          git commit -m "Mise à jour quotidienne du README" || echo "Aucun changement à valider."
+          git push origin main --force
