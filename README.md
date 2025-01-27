@@ -11,7 +11,7 @@
 
 ---
 
-## 📅 **Mise à jour du jour** : 26/01/2025
+## 📅 **Mise à jour du jour** : 27/01/2025
 
 ---
 
