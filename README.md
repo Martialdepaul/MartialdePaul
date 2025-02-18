@@ -58,7 +58,7 @@
 
 ## 💼 **Contactez-moi**
 
-📧 **Email** : [martialdepaul@example.com](mailto:martialdepaul@example.com)  
+📧 **Email** : [martialdepaul@example.com](mailto:depaulmartial4@.com)  
 🔗 **LinkedIn** : [Mon profil LinkedIn](https://www.linkedin.com/in/martialdepaul)
 
 ---
