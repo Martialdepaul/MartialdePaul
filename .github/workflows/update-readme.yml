@@ -2,7 +2,8 @@ name: Update README daily
 
 on:
   schedule:
-    - cron: "0 22 * * *" # Exécute tous les jours à 22h UTC (23h UTC+1)
+    - cron: "0 23 * * *" # Exécute tous les jours à 23h UTC (minuit à Tunis)
+  workflow_dispatch: # Permet l'exécution manuelle
 
 jobs:
   update-readme:
@@ -10,30 +11,26 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
 
       - name: Set up Git config
         run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "Martialdepaul"
+          git config --global user.email "bourangoneulomimartialdepaul@gmail.com"
 
-      - name: Pull latest changes
-        run: |
-          git fetch origin main
-          git reset --hard origin/main
-
-      - name: Debug date
-        run: date
+      - name: Install dependencies
+        run: npm install
 
       - name: Update README date
-        run: |
-          node update-readme.js || echo "Erreur dans le script Node.js"
-
-      - name: Debug file changes
-        run: git diff README.md || echo "Aucun changement détecté dans README.md"
+        run: node update-readme.js
 
       - name: Commit and Push changes
         run: |
           git add README.md
-          git commit -m "Mise à jour quotidienne du README" || echo "Aucun changement à valider."
-          git push origin main --force
+          git commit -m "docs: 📅 mise à jour quotidienne $(TZ='Africa/Tunis' date +'%d/%m/%Y') [bot]" || exit 0
+          git push

@@ -1,49 +1,64 @@
 const { promises: fs } = require("fs");
 const path = require("path");
+const { exec } = require("child_process");
+const util = require("util");
+const execAsync = util.promisify(exec);
 
 const readmePath = path.join(__dirname, "README.md");
-const today = new Date();
 
-// Fonction pour obtenir la date actuelle au format jour/mois/année
 function getTodayDate() {
-  const day = String(today.getDate()).padStart(2, "0"); // Ajoute un zéro devant les jours < 10
-  const month = String(today.getMonth() + 1).padStart(2, "0"); // Mois commence à 0, donc +1
+  const today = new Date();
+  const day = String(today.getDate()).padStart(2, "0");
+  const month = String(today.getMonth() + 1).padStart(2, "0");
   const year = today.getFullYear();
   return `${day}/${month}/${year}`;
 }
 
-// Fonction principale qui met à jour le README
-async function main() {
+async function commitToGitHub() {
   try {
-    // Lire le contenu actuel du README
-    const readmeContent = await fs.readFile(readmePath, "utf-8");
+    const date = getTodayDate();
+    // Configuration pour s'assurer que les commits sont bien comptabilisés
+    await execAsync('git config --global user.name "Martialdepaul"');
+    await execAsync('git config --global user.email "votre-email@example.com"');
 
-    // Regex pour trouver et remplacer la date dans le README
-    const dateRegex = /## 📅 \*\*Mise à jour du jour\*\* : \d{2}\/\d{2}\/\d{4}/;
+    // Ajout et commit des modifications
+    await execAsync("git add README.md");
+    await execAsync(
+      `git commit -m "docs: 📅 mise à jour quotidienne ${date} [bot]"`
+    );
+    await execAsync("git push origin main");
 
-    // Générer la nouvelle ligne avec la date actuelle
-    const newDateLine = `## 📅 **Mise à jour du jour** : ${getTodayDate()}`;
-
-    // Vérifier si le contenu doit être mis à jour
-    if (!dateRegex.test(readmeContent)) {
-      console.error("Aucune date trouvée dans le fichier README !");
-      return;
-    }
-
-    // Remplacer la date existante par la nouvelle
-    const updatedContent = readmeContent.replace(dateRegex, newDateLine);
-
-    // Écrire uniquement si le contenu a changé
-    if (readmeContent !== updatedContent) {
-      await fs.writeFile(readmePath, updatedContent, "utf-8");
-      console.log("README mis à jour avec succès !");
-    } else {
-      console.log("La date est déjà à jour. Aucune modification nécessaire.");
-    }
+    console.log("✅ Mise à jour pushée sur GitHub avec succès !");
   } catch (error) {
-    console.error("Erreur lors de la mise à jour du README :", error);
+    console.error("❌ Erreur lors du push vers GitHub :", error);
   }
 }
 
-// Appeler la fonction principale
+async function main() {
+  try {
+    const readmeContent = await fs.readFile(readmePath, "utf-8");
+    const dateRegex = /## 📅 \*\*Mise à jour du jour\*\* : \d{2}\/\d{2}\/\d{4}/;
+    const newDateLine = `## 📅 **Mise à jour du jour** : ${getTodayDate()}`;
+
+    if (!dateRegex.test(readmeContent)) {
+      console.error("❌ Aucune date trouvée dans le README !");
+      return;
+    }
+
+    const updatedContent = readmeContent.replace(dateRegex, newDateLine);
+
+    if (readmeContent !== updatedContent) {
+      await fs.writeFile(readmePath, updatedContent, "utf-8");
+      console.log("📝 README mis à jour avec succès !");
+      await commitToGitHub();
+    } else {
+      console.log(
+        "ℹ️ La date est déjà à jour. Aucune modification nécessaire."
+      );
+    }
+  } catch (error) {
+    console.error("❌ Erreur lors de la mise à jour :", error);
+  }
+}
+
 main();
