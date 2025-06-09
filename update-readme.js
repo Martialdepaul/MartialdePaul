@@ -37,7 +37,7 @@ async function commitToGitHub() {
 async function main() {
   try {
     const readmeContent = await fs.readFile(readmePath, "utf-8");
-    const dateRegex = /## 📅 \*\*Mise à jour du jour\*\* : \d{2}\/\d{2}\/\d{4}/;
+    const dateRegex = /##\s*📅\s*\*\*Mise à jour du jour\*\*\s*:\s*\d{2}\/\d{2}\/\d{4}/i;
     const newDateLine = `## 📅 **Mise à jour du jour** : ${getTodayDate()}`;
 
     if (!dateRegex.test(readmeContent)) {
