@@ -11,8 +11,6 @@
 
 ---
 
-## 📅 **Mise à jour du jour** : 01/06/2025
-
 ---
 
 ## 🔧 **Stack Technique**
