@@ -1,72 +1,60 @@
 # Mon Profil GitHub
 
-![Bannière personnalisée](https://raw.githubusercontent.com/Martialdepaul/MartialDePaul/refs/heads/main/banner.png)
+![Bannière](https://raw.githubusercontent.com/Martialdepaul/MartialDePaul/refs/heads/main/banner.png)
+
+## 🚀 Développeur Full‑Stack — React/Next.js, Node.js, TailwindCSS, WordPress
+
+J’aide à concevoir et livrer des produits web modernes, rapides et accessibles. Focus qualité (UX/UI, perf, SEO) et delivery efficace (CI/CD, Vercel).
+
+- Frontend: React, Next.js (RSC), TailwindCSS, Shadcn UI, Radix, i18n
+- Backend: Node.js, API REST, intégrations (Cal.com, emailing), auth basique
+- CMS: WordPress (thèmes custom, SEO, performance)
+- Outils: TypeScript, Jest/Playwright, Vercel, Git/GitHub, Figma
+
+🤝 Collaboration: [Historia](https://historiar.io/en) (UI/UX et produits digitaux)
 
 ---
 
-## 🌟 **Développeur Frontend avec une expertise en React, TailwindCSS & WordPress**
+## 🌐 Portfolio (extraits)
 
-🎯 Passionné par la création d’interfaces modernes, dynamiques et interactives, je mets mes compétences au service de projets innovants et ambitieux.  
-✨ Toujours en quête d'apprentissage et de perfectionnement, je combine design et fonctionnalité pour offrir des expériences web mémorables.
+- QMUL Web — Redesign universitaire (Figma → site moderne, accessible)
+  - Lien maquette: https://www.figma.com/proto/rLTfKOIjMwjt8d8wCUZPQO/QMUL-Website--Copy
+  - Partenaire: [Historia](https://historiar.io/en)
+- Collège de Paris — Maquette Figma d’un projet universitaire
+  - Lien: https://www.figma.com/design/gnXBVtJkRhAELPMLSnSTyP/University-Website-Homepage--Desktop---Community-
+- Young Plant — Site vitrine (React/Vite/Tailwind, animations)
+  - Lien: https://martialdepaul.github.io/YP
 
----
-
----
-
-## 🔧 **Stack Technique**
-
-![Technologies utilisées](https://skillicons.dev/icons?i=html,css,js,react,nodejs,tailwind,bootstrap,php,wordpress,jquery)
-
----
-
-## 💼 **Compétences Professionnelles**
-
-### 🔹 **Frontend Development**
-
-- 🛠️ **Création d’interfaces dynamiques et responsives** avec **React** et **TailwindCSS**.
-- 🎨 **Maîtrise des bases HTML, CSS, et JavaScript** pour des designs pixel-perfect.
-- ⚡ **Optimisation des performances frontend** pour une expérience utilisateur fluide.
-
-### 🔹 **Backend Development**
-
-- 🔧 Utilisation de **Node.js** pour des applications rapides et évolutives.
-- 📦 Gestion de données avec des bases comme **MySQL** ou **MongoDB**.
-
-### 🔹 **WordPress Expertise**
-
-- 📝 Développement de thèmes personnalisés et intégration de plugins.
-- 🚀 Optimisation pour le SEO et la compatibilité multi-navigateurs.
-
-### 🔹 **Collaboration et Workflow**
-
-- 🧑‍🤝‍🧑 Travail en équipe avec **Git/GitHub** pour un développement organisé.
-- ⏳ Respect des délais grâce à des méthodologies agiles.
+Fonctionnalités transverses du portfolio:
+- Internationalisation (FR/EN) avec traductions des contenus
+- Intégration Cal.com (modal embarqué, détection langue)
+- Optimisation perf: lazy loading modals, images optimisées, fonts swap
+- UX Desktop/Mobile dédiée (layout horizontal desktop, modals responsives)
 
 ---
 
-## 🌐 **Statistiques GitHub**
+## 🔧 Stack Technique
 
-![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=Martialdepaul&show_icons=true&theme=radical)
+![Tech](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,bootstrap,php,wordpress,figma,git)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Martialdepaul&theme=radical)
-
-![Langages les plus utilisés](https://github-readme-stats.vercel.app/api/top-langs/?username=Martialdepaul&layout=compact&theme=radical)
-
----
-
-## 💼 **Contactez-moi**
-
-📧 **Email** : [depaulmartial4@gmail.com](mailto:depaulmartial4@gmail.com)  
-🔗 **LinkedIn** : [Mon profil LinkedIn](https://www.linkedin.com/in/martialdepaul)
+- React/Next.js (SSR/RSC, dynamic imports, i18n, SEO)
+- Node.js (API, intégrations, webhooks)
+- TailwindCSS, Shadcn UI, Radix (UI/UX)
+- WordPress (thèmes custom, optimisation)
 
 ---
 
-### 🎉 **Pourquoi collaborer avec moi ?**
+## 📈 Stats
 
-- 🌟 **Créativité et innovation** : Je transforme vos idées en solutions web élégantes et performantes.
-- 💻 **Compétences techniques avancées** : React, TailwindCSS, WordPress, Node.js et bien plus encore.
-- 🚀 **Fiabilité et rapidité** : Livraison de projets dans les délais avec une qualité irréprochable.
+![Stats](https://github-readme-stats.vercel.app/api?username=Martialdepaul&show_icons=true&theme=radical)
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Martialdepaul&theme=radical)
+![Langages](https://github-readme-stats.vercel.app/api/top-langs/?username=Martialdepaul&layout=compact&theme=radical)
 
 ---
 
-> "Le code n'est pas seulement fonctionnel, il peut aussi être artistique."
+## 📬 Contact
+
+- Email: depaulmartial4@gmail.com
+- LinkedIn: https://www.linkedin.com/in/martialdepaul
+
+> “Le code n’est pas seulement fonctionnel, il peut aussi être artistique.”
