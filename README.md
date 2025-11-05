@@ -1,50 +1,75 @@
-# Mon Profil GitHub
+# 👋 Salut, moi c’est **Martial De Paul**
 
 ![Bannière](https://raw.githubusercontent.com/Martialdepaul/MartialDePaul/refs/heads/main/banner.png)
 
-## 🚀 Développeur Full‑Stack — React/Next.js, Node.js, TailwindCSS, WordPress
+## 🚀 Développeur Full-Stack | Créateur de solutions web modernes et performantes
 
-J’aide à concevoir et livrer des produits web modernes, rapides et accessibles. Focus qualité (UX/UI, perf, SEO) et delivery efficace (CI/CD, Vercel).
-
-- Frontend: React, Next.js (RSC), TailwindCSS, Shadcn UI, Radix, i18n
-- Backend: Node.js, API REST, intégrations (Cal.com, emailing), auth basique
-- CMS: WordPress (thèmes custom, SEO, performance)
-- Outils: TypeScript, Jest/Playwright, Vercel, Git/GitHub, Figma
-
-🤝 Collaboration: [Historia](https://historiar.io/en) (UI/UX et produits digitaux)
+Je conçois et développe des **sites et applications web rapides, esthétiques et efficaces**, pensés pour aider **entrepreneurs, startups et PME** à se démarquer.  
+Mon objectif : transformer une idée en un **produit digital complet**, avec une belle interface, une expérience fluide et des performances optimisées.
 
 ---
 
-## 🌐 Portfolio (extraits)
+### 💡 Ce que je fais le mieux
 
-- QMUL Web — Redesign universitaire (Figma → site moderne, accessible)
-  - Lien maquette: https://www.figma.com/proto/rLTfKOIjMwjt8d8wCUZPQO/QMUL-Website--Copy
-  - Partenaire: [Historia](https://historiar.io/en)
-- Collège de Paris — Maquette Figma d’un projet universitaire
-  - Lien: https://www.figma.com/design/gnXBVtJkRhAELPMLSnSTyP/University-Website-Homepage--Desktop---Community-
-- Young Plant — Site vitrine (React/Vite/Tailwind, animations)
-  - Lien: https://martialdepaul.github.io/YP
+- 🧠 **Frontend** : React, Next.js, TailwindCSS, Shadcn UI, Radix, i18n  
+- ⚙️ **Backend** : Node.js, API REST, Prisma, Auth, intégrations (Cal.com, Emailing, Webhooks)  
+- 📰 **CMS & SEO** : WordPress (thèmes sur mesure, optimisation SEO et performance)  
+- 🧰 **Outils** : TypeScript, Jest/Playwright, Vercel, Git/GitHub, Figma
 
-Fonctionnalités transverses du portfolio:
-- Internationalisation (FR/EN) avec traductions des contenus
-- Intégration Cal.com (modal embarqué, détection langue)
-- Optimisation perf: lazy loading modals, images optimisées, fonts swap
-- UX Desktop/Mobile dédiée (layout horizontal desktop, modals responsives)
+> J’accorde une attention particulière à la qualité du design, la performance du code et la clarté de l’expérience utilisateur.  
+> Car un site n’est pas seulement beau : il doit **attirer, convertir et donner confiance**.
 
 ---
 
-## 🔧 Stack Technique
+## 🌍 Projets et Réalisations
 
-![Tech](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,bootstrap,php,wordpress,figma,git)
-
-- React/Next.js (SSR/RSC, dynamic imports, i18n, SEO)
-- Node.js (API, intégrations, webhooks)
-- TailwindCSS, Shadcn UI, Radix (UI/UX)
-- WordPress (thèmes custom, optimisation)
+### 🎓 **QMUL Web — Redesign universitaire**
+Refonte complète d’un site académique, du wireframe Figma jusqu’à la mise en ligne.  
+➡️ [Voir la maquette](https://www.figma.com/proto/rLTfKOIjMwjt8d8wCUZPQO/QMUL-Website--Copy)  
+🧑‍💼 Collaboration professionnelle avec [Historia](https://historiar.io/en) — UI/UX et conception digitale.
 
 ---
 
-## 📈 Stats
+### 🏫 **Collège de Paris — Maquette Figma**
+Projet universitaire : modernisation d’une plateforme éducative.  
+➡️ [Voir le design](https://www.figma.com/design/gnXBVtJkRhAELPMLSnSTyP/University-Website-Homepage--Desktop---Community-)
+
+---
+
+### 🌱 **Young Plant — Site vitrine**
+Site React + Vite + Tailwind, avec animations fluides et interface responsive.  
+➡️ [Voir le site](https://martialdepaul.github.io/YP)
+
+---
+
+### ✨ Points forts de mes projets
+
+- 🌍 Internationalisation (FR/EN) avec détection automatique de la langue  
+- 🧩 Intégrations avancées (Cal.com, emailing, formulaires dynamiques)  
+- ⚡ Optimisation performance (lazy loading, fonts, images, SEO)  
+- 📱 UX pensée sur mesure pour mobile et desktop  
+
+---
+
+## 🧠 Stack Technique
+
+![Tech Stack](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,bootstrap,php,wordpress,figma,git)
+
+- React / Next.js (RSC, SSR, SEO, i18n)  
+- Node.js (API, intégrations, webhooks)  
+- TailwindCSS, Shadcn UI, Radix (UI/UX)  
+- WordPress (thèmes custom, performance et SEO)
+
+---
+
+## 🤝 Collaborations
+
+- 💼 **[Historia](https://historiar.io/en)** — UI/UX & conception de produits digitaux (stage rémunéré)
+- 👨‍💻 Autres collaborations en freelance : conception de maquettes, optimisation WordPress et intégrations Next.js.
+
+---
+
+## 📊 Mes Stats GitHub
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=Martialdepaul&show_icons=true&theme=radical)
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Martialdepaul&theme=radical)
@@ -52,9 +77,13 @@ Fonctionnalités transverses du portfolio:
 
 ---
 
-## 📬 Contact
+## 📬 Me Contacter
 
-- Email: depaulmartial4@gmail.com
-- LinkedIn: https://www.linkedin.com/in/martialdepaul
+📧 **Email :** [depaulmartial4@gmail.com](mailto:depaulmartial4@gmail.com)  
+💼 **LinkedIn :** [linkedin.com/in/martialdepaul](https://www.linkedin.com/in/martialdepaul)  
+🌐 **Portfolio :** bientôt en ligne  
 
-> “Le code n’est pas seulement fonctionnel, il peut aussi être artistique.”
+---
+
+> 🎯 *"Le code n’est pas qu’une logique, c’est une forme d’expression créative."*  
+> — **Martial De Paul**
