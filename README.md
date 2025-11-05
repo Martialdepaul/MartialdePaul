@@ -69,6 +69,18 @@ Site React + Vite + Tailwind, avec animations fluides et interface responsive.
 
 ---
 
+## 🎯 Ce que je recherche actuellement
+
+Je suis **ouvert à de nouvelles collaborations et missions freelance** dans le développement web et le design UI/UX.  
+Je recherche particulièrement :
+- 🚀 Des projets **React / Next.js** avec un fort accent sur l’expérience utilisateur.  
+- 🌐 Des missions **WordPress** (création, refonte, SEO, performance).  
+- 🤝 Des **collaborations à distance** avec des agences ou startups.  
+
+> Si vous cherchez un développeur créatif, sérieux et orienté résultats — parlons-en.
+
+---
+
 ## 📊 Mes Stats GitHub
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=Martialdepaul&show_icons=true&theme=radical)
