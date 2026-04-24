@@ -86,7 +86,7 @@ Je suis disponible pour des missions freelance, des collaborations techniques et
 📧 [contact@martial-depaul.com](mailto:contact@martial-depaul.com)
 💼 [linkedin.com/in/martial-depaul](https://linkedin.com/in/martial-depaul)
 🌐 [martial-depaul.com](https://martial-depaul.com)
-💬 WhatsApp : +216 54 325 404
+💬 [WhatsApp](https://wa.me/21654325404)
 
 ---
 
