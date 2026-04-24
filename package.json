@@ -1,12 +1,16 @@
 {
   "name": "martialdepaul",
   "version": "1.0.0",
-  "description": "<p align=\"center\">\r <img src=\"https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/refs/heads/main/banner.png\" alt=\"Bannière personnalisée\" width=\"100%\">\r </p>",
-  "main": "index.js",
+  "description": "Page de profil GitHub (README et bannière) — dépôt profil personnel.",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "echo Ce depot est un profil GitHub - pas de serveur a lancer. Consultez le README sur GitHub.",
+    "test": "echo \"Profil GitHub : aucun test a executer.\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "github-profile",
+    "readme"
+  ],
+  "author": "Martial De-Paul",
   "license": "ISC"
 }

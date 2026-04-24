@@ -1,101 +1,94 @@
-# 👋 Salut, moi c’est **Martial De Paul**
+# 👋 Salut, je suis Martial De-Paul
 
-![Bannière](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)
-
-## 🚀 Développeur Full-Stack | Créateur de solutions web modernes et performantes
-
-Je conçois et développe des **sites et applications web rapides, esthétiques et efficaces**, pensés pour aider **entrepreneurs, startups et PME** à se démarquer.  
-Mon objectif : transformer une idée en un **produit digital complet**, avec une belle interface, une expérience fluide et des performances optimisées.
+> **Consultant en Présence Digitale — J'aide les entrepreneurs et PME à gagner plus de clients grâce à internet 🌍**
 
 ---
 
-### 💡 Ce que je fais le mieux
+## 🎯 Ce que je fais
 
-- 🧠 **Frontend** : React, https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip, TailwindCSS, Shadcn UI, Radix, i18n  
-- ⚙️ **Backend** : https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip, API REST, Prisma, Auth, intégrations (https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip, Emailing, Webhooks)  
-- 📰 **CMS & SEO** : WordPress (thèmes sur mesure, optimisation SEO et performance)  
-- 🧰 **Outils** : TypeScript, Jest/Playwright, Vercel, Git/GitHub, Figma
+Je ne vends pas du code. Je vends de la visibilité. Mon travail : prendre des entreprises invisibles sur internet et les rendre trouvables par leurs clients — sur Google, sur les IA, partout où ça compte.
 
-> J’accorde une attention particulière à la qualité du design, la performance du code et la clarté de l’expérience utilisateur.  
-> Car un site n’est pas seulement beau : il doit **attirer, convertir et donner confiance**.
+Je conseille, je construis, je livre. Un seul interlocuteur. Zéro prise de tête.
 
 ---
 
-## 🌍 Projets et Réalisations
+## 🚀 Mes Services
 
-### 🎓 **QMUL Web — Redesign universitaire**
-Refonte complète d’un site académique, du wireframe Figma jusqu’à la mise en ligne.  
-➡️ [Voir la maquette](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)  
-🧑‍💼 Collaboration professionnelle avec [Historia](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip) — UI/UX et conception digitale.
-
----
-
-### 🏫 **Collège de Paris — Maquette Figma**
-Projet universitaire : modernisation d’une plateforme éducative.  
-➡️ [Voir le design](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)
+- 🌐 **Création de sites web professionnels**
+- 📈 **Référencement SEO** — apparaître sur Google
+- 🤖 **GEO (Generative Engine Optimization)** — apparaître dans ChatGPT, Perplexity, Gemini
+- 🧠 **Stratégie digitale complète**
 
 ---
 
-### 🌱 **Young Plant — Site vitrine**
-Site React + Vite + Tailwind, avec animations fluides et interface responsive.  
-➡️ [Voir le site](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)
+## 🌍 Projets & Réalisations
+
+**Mauriloc 🇲🇷**
+Plateforme de location de véhicules en Mauritanie
+`Next.js` · `PostgreSQL` · `Prisma` · `Vercel`
+→ Présence digitale complète · Réservations en ligne
 
 ---
 
-### ✨ Points forts de mes projets
-
-- 🌍 Internationalisation (FR/EN) avec détection automatique de la langue  
-- 🧩 Intégrations avancées (https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip, emailing, formulaires dynamiques)  
-- ⚡ Optimisation performance (lazy loading, fonts, images, SEO)  
-- 📱 UX pensée sur mesure pour mobile et desktop  
+**Guinex 🇬🇳**
+Startup de livraison urbaine en Guinée
+`WordPress` · `SEO` · `Stratégie digitale`
+→ Lancement digital complet
 
 ---
 
-## 🧠 Stack Technique
-
-![Tech Stack](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip,css,js,ts,react,nextjs,nodejs,tailwind,bootstrap,php,wordpress,figma,git)
-
-- React / https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip (RSC, SSR, SEO, i18n)  
-- https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip (API, intégrations, webhooks)  
-- TailwindCSS, Shadcn UI, Radix (UI/UX)  
-- WordPress (thèmes custom, performance et SEO)
+**Diag Power Shop 🌐**
+Boutique e-commerce internationale
+`WordPress` · `WooCommerce` · `SEO`
+→ +35% visibilité Google
 
 ---
 
-## 🤝 Collaborations
-
-- 💼 **[Historia](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)** — UI/UX & conception de produits digitaux (stage rémunéré)
-- 👨‍💻 Autres collaborations en freelance : conception de maquettes, optimisation WordPress et intégrations https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip
-
----
-
-## 🎯 Ce que je recherche actuellement
-
-Je suis **ouvert à de nouvelles collaborations et missions freelance** dans le développement web et le design UI/UX.  
-Je recherche particulièrement :
-- 🚀 Des projets **React / https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip** avec un fort accent sur l’expérience utilisateur.  
-- 🌐 Des missions **WordPress** (création, refonte, SEO, performance).  
-- 🤝 Des **collaborations à distance** avec des agences ou startups.  
-
-> Si vous cherchez un développeur créatif, sérieux et orienté résultats — parlons-en.
+**AESCT 🇹🇳**
+Site officiel association étudiante — Tunisie
+`Next.js` · `Sanity CMS` · `Tailwind CSS`
+→ Livré · Équipe autonome
 
 ---
 
-## 📊 Mes Stats GitHub
+## 🛠️ Stack Technique
 
-![Stats](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)
-![Streak](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)
-![Langages](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)
+**Frontend**
+Next.js · React · TypeScript · Tailwind CSS · Framer Motion · Shadcn UI
+
+**Mobile**
+React Native · Expo
+
+**Backend**
+Node.js · PostgreSQL · Prisma · NextAuth.js · Zod
+
+**CMS & Design**
+WordPress · Sanity CMS · Figma
+
+**SEO & GEO**
+SEO technique · GEO · Stratégie de contenu
+
+**IA & DevOps**
+Claude AI · Cursor AI · Claude Code · Vercel · Git · GitHub
+
+---
+
+## 💼 Vous recrutez ?
+
+Je suis disponible pour des missions freelance, des collaborations techniques et des projets à long terme.
+
+→ Voir ma page dédiée aux recruteurs : [martial-depaul.com/collaborate](https://martial-depaul.com/collaborate)
 
 ---
 
 ## 📬 Me Contacter
 
-📧 **Email :** [https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)  
-💼 **LinkedIn :** [https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip](https://raw.githubusercontent.com/Martialdepaul/MartialdePaul/main/ingredient/Martialde_Paul_v1.1.zip)  
-🌐 **Portfolio :** bientôt en ligne  
+📧 [contact@martial-depaul.com](mailto:contact@martial-depaul.com)
+💼 [linkedin.com/in/martial-depaul](https://linkedin.com/in/martial-depaul)
+🌐 [martial-depaul.com](https://martial-depaul.com)
+💬 WhatsApp : +216 54 325 404
 
 ---
 
-> 🎯 *"Le code n’est pas qu’une logique, c’est une forme d’expression créative."*  
-> — **Martial De Paul**
+> 🎯 *"Je ne construis pas des sites. Je construis des systèmes qui attirent des clients."*
+> — Martial De-Paul
